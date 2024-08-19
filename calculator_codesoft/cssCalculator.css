@@ -1,0 +1,154 @@
+body{
+    height:auto;
+    width: auto;
+    background-color: brown;
+    overflow-y:hidden ;
+    overflow-x:hidden ;
+}
+.wrapper{
+    background-image:linear-gradient(rgb(207, 207, 250),rgb(100, 100, 245));
+display:flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+width:1800px;
+}
+
+.calculator{
+    background-image: linear-gradient(rgb(9, 9, 96),rgb(65, 65, 174));
+    height:810px;
+    width: 700px;
+    border: 8px solid rgb(4, 4, 69);
+    box-sizing: border-box;
+    border-radius: 50px;
+    box-shadow: 10px 10px 40px black;
+    display: flex;
+    gap:15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.complete{
+    display: flex;
+    overflow-y: hidden;
+    flex-direction: column;
+} 
+#backspace {
+    background-color: rgb(242, 13, 13);
+    color: white;
+}
+#res {
+    padding: 10px;
+}
+#clr {
+    background-color:red;
+    margin-top: 9px;
+    height: 110px;
+    color: white;
+    width: 125px;
+border-radius: 20px;
+}
+.complete{
+    display: flex;
+    flex-direction: column;
+}
+.answer{
+    width:590px;
+    background-color: white;
+    border-radius: 3%;
+    background-color:white;
+    color: black;
+    height:100%;
+    padding: 30px;
+    margin: 10px;
+    margin-bottom: 50px;
+height: 50px;
+
+}
+.answer input{
+width: 585px;
+padding-top: 50px;
+right: 0;
+border: none;
+height: 55px;
+    font-size: 60px;
+    
+}
+.operands{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 30px;
+width: 80%;
+}
+.operators {
+    display: flex;
+right: 450px;
+    flex-direction: column; 
+    align-items: end;
+    position: absolute;
+}
+
+.operators input {
+    margin-bottom: 8px;
+    padding: 10px;
+    height: 90px;
+    width: 120px;
+    text-align: center; 
+}
+
+.operators input.op {
+    font-weight: 300;
+    font-size: 50px;
+    color: white;
+    border:3px solid white  ; 
+}
+
+.operators input.delete {
+    background-color: #f44336; /* Optional: Add background color for delete button */
+    color: white; /* Change text color to white */
+}
+.button{
+    height: 120px;
+    width: 140px;
+    border-radius: 30%;
+    cursor:pointer;
+    background-color: rgb(45, 77, 193);
+    border: 5px solid white;
+    color: white;
+    font-weight: 400;
+    font-size: 60px;
+}
+.delete{
+    height: 100px;
+    width: 100px;
+    /* border-radius: 30%; */
+    border: 5px solid rgb(5, 5, 73);    
+    background-color: red;
+        color: white;
+    font-weight: 800;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.op{
+    height: 100px;
+    width: 110px;
+    border-radius: 30%;
+    background-color: rgb(45, 77, 193);
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 70px;
+border:5px solid rgb(7, 7, 102)}
+.clear-btn{
+    height: 100px;
+    width: 100px;
+    border: 5px solid white;   
+    background-color: rgb(234, 66, 66);
+    color: white;
+    font-weight: 700;
+    font-size: 65px;
+}

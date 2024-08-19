@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" a href="cssCalculator.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="calculator" id="content">
+            <div class="answer" id="res">
+                <button class="number delete " id="backspace" onclick="back()"><span>&#8592;</span></button>               
+            <input type="text" id="res">
+            </div>
+            <div class="complete">
+            <div class="operands">
+                <button class="number button" onclick="Solve('1')">1</button>               
+                <button class="number button" onclick="Solve('2')">2</button>
+                <button class="number button" onclick="Solve('3')">3</button>
+                <button class="number button" onclick="Solve('4')">4</button>
+                <button class="number button" onclick="Solve('5')">5</button>
+                <button class="number button"onclick="Solve('6')">6</button>
+                <button class="number button"onclick="Solve('7')">7</button>
+                <button class="number button" onclick="Solve('8')">8</button>
+                <button class="number button" onclick="Solve('9')">9</button>
+                <button class="number button" onclick="Solve('0')">0</button>  
+                <button class="number button" onclick="Solve('.')">.</button>
+                <button class="number clear-btn" id="clr" onclick="Clear()">C</button>           
+            </div>
+            <div class="operators">    
+                <button class="operation op" onclick="Solve('+')">+</button>
+                <button class="operation op" onclick="Solve('*')">x</button>
+                <button class="operation op" onclick="Solve('/')">/</button>
+                <button class="operation op" onclick="Solve('-')">-</button>                
+                <button class="operation op" onclick="Solve('=')">=</button>
+
+
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    <script src="jsCalculator.js"></script>
+</body>
+</html>
