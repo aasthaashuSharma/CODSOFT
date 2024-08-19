@@ -1,0 +1,154 @@
+*{
+    font-weight:530;
+    margin: 0;
+    padding: 0;
+}
+#header1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+#header2{
+  background-image: linear-gradient(white, rgb(249, 231, 231));
+    height:50px;
+    display: flex;
+    color: goldenrod;
+    padding: 5px;
+    justify-content: space-between;
+}
+#brand-name{
+    font-weight: bolder;
+    font-size: 40px;
+    margin-left: 75px;
+}
+#button{
+    margin-top: 6px;
+    margin-right: 75px;
+    padding: 5px;
+    font-weight: bolder;
+    background-color: orangered;
+    color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 34px;
+    width: 93px;
+    box-shadow: 2px 2px 5px black ;
+}
+.effect::before{
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.8s;
+}
+.effect:hover{
+    border: 3px whitesmoke;
+    color:white;
+    transform: scaleX(1.2);
+  
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    gap:2%;
+    justify-content: center;
+}
+#about{
+    margin-left: 100px ;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-self: center;
+}
+#main-heading{
+    font-size: 60px;
+    color:rgb(4, 4, 63);
+    font-weight: 600;
+    text-shadow: 3px 3px goldenrod;
+}
+#description{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(23, 23, 82);
+}
+#ratings{
+    /* font-weight: bolder; */
+    font-size: 20px;
+    color: rgb(18, 18, 76);
+}
+#shop{
+    background-color: orangered;
+    color: aliceblue;
+    padding: 5px;
+    height: 40px;
+    width: 300px;
+    font-weight: 700;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#delivery{
+    margin-left: 100px;
+    margin-top: 10px;
+    color: rgb(0,0,139,0.9);
+    font-size: 20px;
+}
+#guarantee{font-size: 20px;
+    margin-top: 2px;
+    color: rgb(0,0,139,0.9);
+}
+#tofee-pic{
+    /* transform: rotate(180deg); */
+    width: 40rem;
+    height: 60vh;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.image{
+    box-sizing: border-box;
+    box-shadow: 7px 8px 20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 50%;
+    border: 10px solid black;
+}
+#footer
+{
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    color: aliceblue;
+    width: 100vw;
+    position: fixed;
+    bottom: 0px;
+    background-color: black;
+    align-items: center;
+}
+#f1{
+    font-size: 20px;
+    color:rgb(244, 178, 12);
+}
+.motion:hover{
+    transform: scale(1.3);
+}
+#f2{
+    font-size: 50px; color:rgb(244, 178, 12);
+}
+#f3{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif; color:rgb(244, 178, 12);
+}
+#f4{
+    font-size: 40px; color:rgb(244, 178, 12);
+}
+#f5{
+    font-weight: 800; color:rgb(244, 178, 12);
+    font-size: 20px;
+}
+#f6{
+    font-size: 20px; color:rgb(244, 178, 12);
+}
